@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ac42c3b1f7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="index.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+<meta name="robots" content="none,noarchive"/>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://res.cloudinary.com/dxr9wzza1/image/upload/v1734319037/logo_sjqlnd.png" class="farmify-logo" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link active" id="navItem1" href="#wcuSection">
+                        Why Choose Us?
+                        <span class="sr-only">(current)</span>
+                    </a>
+                    <a class="nav-link" href="#exploreMenuSection" id="navItem2">Explore Menu</a>
+                    <a class="nav-link" href="#deliveryPaymentSection" id="navItem3">Delivery & Payment</a>
+                    <a class="nav-link" href="#Contact_us" id="navItem4">Contact Us</a>
+                    <a class="nav-link" href="#followUsSection" id="navItem5">Follow Us</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="farmify-banner-section-bg-container d-flex justify-content-center flex-column">
+        <div class="text-center">
+            <h1 class="farmify-banner-heading mb-3">Get Delicious Food Anytime</h1>
+            <p class="farmify-banner-caption mb-4">Eat Smart & Healthy</p>
+            <button class="farmify-custom-button">View Menu</button>
+            <button class="farmify-custom-outline-button">Order Now</button>
+        </div>
+    </div>
+    <div class="farmify-wcu-section pt-5 pb-5" id="wcuSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="farmify-wcu-section-heading">Why Choose Us?</h1>
+                    <p class="farmify-wcu-section-description">
+                        Farmify is your one-stop shop for fresh, organic produce. We connect you directly with local farmers,
+                        ensuring the highest quality and freshness. By choosing Farmify, you support sustainable farming practices and enjoy the benefits of wholesome, nutritious food.
+                    </p>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="farmify-wcu-card p-3 mb-3">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/food-serve.png" class="farmify-wcu-card-image" />
+                        <h1 class="farmify-wcu-card-title mt-3">FarmiFy Service</h1>
+                        <p class="farmify-wcu-card-description">
+                            FarmifyService is a platform that connects farmers directly with consumers, offering a wide range of fresh, organic produce.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="farmify-wcu-card p-3 mb-3">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/fruits-img.png" class="farmify-wcu-card-image" />
+                        <h1 class="farmify-wcu-card-title mt-3">Oraganic Food</h1>
+                        <p class="farmify-wcu-card-description">
+                            Organic food is grown without the use of harmful chemicals, prioritizing sustainability and providing consumers with healthier, more natural choices.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="farmify-explore-menu-section pt-5 pb-5" id="exploreMenuSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="farmify-menu-section-heading">Explore Menu</h1>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="shadow farmify-menu-item-card p-3 mb-3">
+                        <img src="https://c4.wallpaperflare.com/wallpaper/742/963/615/vegetables-basket-green-background-garden-wallpaper-preview.jpg" class="farmify-menu-item-image w-100" />
+                        <h1 class="farmify-menu-card-title">Organic Vegetables</h1>
+                        <p class="farmify-menu-card-description">We are excited to announce that we now offer a wide range of organic produce. Visit our store to explore more.</p>
+                        <a href="" class="farmify-menu-item-link">
+                            View All
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="shadow farmify-menu-item-card p-3 mb-3">
+                        <img src="https://storage.googleapis.com/a1aa/image/qHAc2QRQLR5HPxgFvttl3XpbWZe2VwBdkOsIrtUmhdhXfT7TA.jpg" class="farmify-menu-item-image w-100" />
+                        <h1 class="farmify-menu-card-title">Organic Farming Initiative</h1>
+                        <p class="farmify-menu-card-description">Our community farming initiative aims to bring together local farmers to share resources and knowledge.</p>
+                        <a href="" class="farmify-menu-item-link">
+                            View All
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="shadow farmify-menu-item-card p-3 mb-3">
+                        <img src="https://storage.googleapis.com/a1aa/image/K4IE2k7L1eRFWaAbU3VA4kgWBS2r2wtkfdgHommoK3Voen2nA.jpg" class="farmify-menu-item-image w-100" />
+                        <h1 class="farmify-menu-card-title">Fresh Diary Products</h1>
+                        <p class="farmify-menu-card-description">Get the freshest dairy products directly from our partnered farms. Quality and freshness guaranteed.</p>
+                        <a href="" class="farmify-menu-item-link">
+                            View All
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="shadow farmify-menu-item-card p-3 mb-3">
+                        <img src="https://storage.googleapis.com/a1aa/image/2j9MwJaHri7DE9UQJIzzIxy3YBvlOGOY7ZcibMgfM9oWfT7TA.jpg" class="farmify-menu-item-image w-100" />
+                        <h1 class="farmify-menu-card-title">Seasonal Fruits</h1>
+                        <p class="farmify-menu-card-description">Check out our latest stock of seasonal fruits. Freshly picked and ready for you to enjoy.</p>
+                        <a href="" class="farmify-menu-item-link">
+                            View All
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="shadow farmify-menu-item-card p-3 mb-3">
+                        <img src="https://storage.googleapis.com/a1aa/image/DZnUXY2e03y0AKAvDfbpWeCxlAujdrAsVLDN17ZFZo4G9n2nA.jpg" class="farmify-menu-item-image w-100" />
+                        <h1 class="farmify-menu-card-title">Fresh Herbs</h1>
+                        <p class="farmify-menu-card-description">We now offer a wide range of fresh herbs to enhance your culinary creations. Visit us to explore more.</p>
+                        <a href="" class="farmify-menu-item-link">
+                            View All
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="shadow farmify-menu-item-card p-3 mb-3">
+                        <img src="https://storage.googleapis.com/a1aa/image/InXzBco8Hk4wLRDOS6ssw0Vke77P17WMXOVwRe3FEuLnen2nA.jpg" class="farmify-menu-item-image w-100" />
+                        <h1 class="farmify-menu-card-title">Green House Farming</h1>
+                        <p class="farmify-menu-card-description">Explore our greenhouse farming techniques that allow us to grow a variety of plants year-round.</p>
+                        <a href="" class="farmify-menu-item-link">
+                            View All
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="py-12 bg-white">
+        <div class="container mx-auto text-center" id="Contact_us">
+            <h2 class="text-3xl font-bold">
+                Contact Us
+            </h2>
+            <p class="mt-4 text-gray-600">
+                Have any questions? We'd love to hear from you.
+            </p>
+            <form class="mt-8 max-w-lg mx-auto">
+                <div class="mb-4">
+                    <input class="w-full p-3 border border-gray-300 rounded" placeholder="Your Name" type="text" />
+                </div>
+                <div class="mb-4">
+                    <input class="w-full p-3 border border-gray-300 rounded" placeholder="Your Email" type="email" />
+                </div>
+                <div class="mb-4">
+                    <textarea class="w-full p-3 border border-gray-300 rounded h-32" placeholder="Your Message"></textarea>
+                </div>
+                <button class="btn btn-success bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded" type="submit">
+                    Send Message
+                </button>
+            </form>
+        </div>
+    </section>
+    <div class="farmify-follow-us-section pt-5 pb-5" id="followUsSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="farmify-follow-us-section-heading">Follow Us</h1>
+                </div>
+                <div class="col-12">
+                    <div class="d-flex flex-row justify-content-center">
+                        <div class="farmify-follow-us-icon-container">
+                            <i class="fab fa-twitter icon"></i>
+                        </div>
+                        <div class="farmify-follow-us-icon-container">
+                            <i class="fab fa-instagram icon"></i>
+                        </div>
+                        <div class="farmify-follow-us-icon-container">
+                            <i class="fab fa-facebook icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="farmify-footer-section pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <img src="https://res.cloudinary.com/dxr9wzza1/image/upload/v1734319037/logo_sjqlnd.png" class="farmify-footer-logo" />
+                    <h1 class="farmify-footer-section-mail-id">farmify@gmail.com</h1>
+                    <p class="farmify-footer-section-address">
+                        Parul University Vadodara, Gujarat, India.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="index.js"></script>
+</body>
+
+</html>
