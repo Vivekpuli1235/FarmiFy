@@ -4,6 +4,11 @@ from the farmers directly without mideator/Vendor.
 This project is done for the Hackthon in my colllege I and my friends are part of this project
 my contribution is Front-End part of the project
 
+Team Members:
+1)Vivek Puli :www.linkedin.com/in/vivek-puli-775294294
+2) Abhilash Yasoja :https://www.linkedin.com/in/yasoji-abhilash/
+
+
 # Technologies used
 HTML,#CSS,#Boot-Strap
 
