@@ -6,7 +6,7 @@ my contribution is Front-End part of the project
 
 Team Members:
 1)Vivek Puli :www.linkedin.com/in/vivek-puli-775294294
-2) Abhilash Yasoja :https://www.linkedin.com/in/yasoji-abhilash/
+2)Abhilash Yasoja :https://www.linkedin.com/in/yasoji-abhilash/
 
 
 # Technologies used
